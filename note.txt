@@ -1,0 +1,29 @@
+                   TechAlpha project overview 
+
+Day-01
+
+1. first starter pack banate hobe 
+      - oproyjonoio file gula delete korte hobe
+      - react-router setup korte hobe (npm i react-router-dom)
+      - router install howar por index.js e jeye <BrowserRouter></BrowserRouter> diye baki code gula ke wrapp kore dite hobe 
+      - src folder er bitor pages name r ekta folder create korte hobe er bitor shob gula page thakbe
+                pages 
+                   -Home
+                   -Products
+                   -Cart
+                   -NotFound
+      - rsc er bitor component name r ekta file bante hobe er bitor shob component gula thakbe
+                component 
+                    -Navbar
+                    -Footer
+
+       - navbar and footer component ke app.js e ante hobe and navbar and footer component er maje route set korte hobe shob gule page ke 
+                   <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/products" element={<Products/>} />
+                    <Route path="/cart" element={<Cart/>}/>
+                    <Route path="*" element={<NotFound/>}/>
+                   </Routes>
+
+        - app class div ta ke ekta fragment er bitor nite hobe and app er shate min-h-screen name ekta class nite hobe jate footer ta shob shomoy niche e thake upore na ashte pare 
+       
