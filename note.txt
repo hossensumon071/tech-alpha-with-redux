@@ -25,5 +25,17 @@ Day-01
                     <Route path="*" element={<NotFound/>}/>
                    </Routes>
 
-        - app class div ta ke ekta fragment er bitor nite hobe and app er shate min-h-screen name ekta class nite hobe jate footer ta shob shomoy niche e thake upore na ashte pare 
-       
+        - app class div ta ke ekta fragment er bitor nite hobe and app er shate min-h-screen name ekta class nite hobe jate footer ta shob shomoy niche e thake upore na ashte pare . r footer ta fragment er bitor thakbe not app div er bitor min-h-screen ekta tailwind css class 
+
+
+  2. app js e app class div e aro kichu class add korte hobe tailwind er backgoround er color kmn hobe text color kmn hobe text size kmn hobe jar ei project er default style 
+             - bg-gray-50
+             - text-gray-700
+             - text-lg
+
+     eigula index.css e add korte hobe
+             html,
+            body {
+            overflow-x: hidden;
+            }     
+
