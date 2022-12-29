@@ -13,3 +13,24 @@ body {
 body {
   font-family: "Poppins", sans-serif;
 }
+
+/* navbar start */
+.nav-link {
+  position: relative
+}
+.nav-link::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: rgb(249, 115, 22);
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+/* navbar end */

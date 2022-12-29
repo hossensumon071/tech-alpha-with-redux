@@ -31,7 +31,6 @@ Day-01
   2. app js e app class div e aro kichu class add korte hobe tailwind er backgoround er color kmn hobe text color kmn hobe text size kmn hobe jar ei project er default style 
              - bg-gray-50
              - text-gray-700
-             - text-lg
 
      eigula index.css e add korte hobe
              html,
@@ -39,3 +38,6 @@ Day-01
             overflow-x: hidden;
             }     
 
+
+3. navbar component ke style korte hobe ekon
+        
